@@ -6,7 +6,7 @@ import java.util.List;
 public class practice2 {
     public static void main(String[] args){
 
-        List<String> list = Arrays.asList("nasser", "abdullah");
+        String[] list = {"nasser", "abdullah"};
 
         for(String st: list){
             StringBuilder string1= new StringBuilder(new StringBuilder(st).reverse().toString());

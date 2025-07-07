@@ -19,7 +19,9 @@ public class CodeCreatorPractice {
             string1.append(st.charAt(i));
         }
 
-            System.out.println( "reversed name "+ string1.toString());
+            System.out.println( "reversed name "+ string1);
         }
     }
+
+
 }
